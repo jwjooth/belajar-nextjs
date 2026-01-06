@@ -13,8 +13,8 @@
 //   subsets: ["latin"],
 // });
 
-import { ChangeEventHandler, ReactNode, useState } from "react";
 import Head from "next/head";
+import { ChangeEventHandler, ReactNode, useState } from "react";
 
 export type User = {
   name: string
@@ -65,9 +65,9 @@ export default function Home() {
 
   return (
     <>
-    <Head>
-      <title>Dashboard Page</title>
-    </Head>
+      <Head>
+        <title>Dashboard Page</title>
+      </Head>
       <p>hello world jordan!</p>
       <button onClick={handlingState}>
         <p>{myState}</p>
