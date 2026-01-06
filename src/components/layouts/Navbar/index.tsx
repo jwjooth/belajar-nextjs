@@ -1,7 +1,15 @@
-export default function Navbar() {
+import styles from './Navbar.module.css'
+
+const Navbar = () => {
   return (
     <>
-      <p className="navbar">Navbar</p>
+      <div className={styles.navbar}>
+        <div className="big">
+          INI ADALAH NAVBAR
+        </div>
+      </div>
     </>
   )
 }
+
+export default Navbar
